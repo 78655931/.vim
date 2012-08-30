@@ -19,3 +19,9 @@
 [submodule "bundle/zencoding"]
 	path = bundle/zencoding
 	url = git://github.com/mattn/zencoding-vim.git
+[submodule "bundle/AutoComplPop"]
+	path = bundle/AutoComplPop
+	url = git://github.com/tonybyrne/AutoComplPop.git
+[submodule "bundle/bufexplorerer"]
+	path = bundle/bufexplorerer
+	url = git://github.com/corntrace/bufexplorer.git

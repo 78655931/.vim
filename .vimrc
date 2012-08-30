@@ -2,7 +2,7 @@
 " vim:set ft=vim et tw=78 sw=2:
 
 """ Start pathogen plugin
-runtime bundle/pathogen/autoload/pathogen.vim
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -168,6 +168,18 @@ function ClosePair(char)
   endif
 endf
 
+
+if has("gui_running")
+    au GUIEnter * simalt ~x " 窗口启动时自动最大化
+"winpos 20 20 " 指定窗口出现的位置，坐标原点在屏幕左上角
+"set lines=20 columns=90 " 指定窗口大小，lines为高度，columns为宽度
+"set guioptions-=m " 隐藏菜单栏
+    set guioptions-=T " 隐藏工具栏
+"set guioptions-=L " 隐藏左侧滚动条
+"set guioptions-=r " 隐藏右侧滚动条
+"set guioptions-=b " 隐藏底部滚动条
+"set showtabline=0 " 隐藏Tab栏
+endif
 
 " 格式化xml
 function Xml()
