@@ -90,7 +90,6 @@ set smartcase                   " Set smartcase mode on, If there is upper case 
 
 """ Key Mappings
 let g:mapleader=','
-nmap <leader>u 	:MRU<CR>        
 nmap <leader>nt :NERDTreeFind<CR>
 nmap <leader>fe :NERDTree<CR>:NERDTreeMirror<CR>
 nmap <leader>e 	:NERDTreeToggle<CR>:NERDTreeMirror<CR>
