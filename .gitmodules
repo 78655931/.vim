@@ -25,6 +25,4 @@
 [submodule "bundle/rubycomplete"]
 	path = bundle/rubycomplete
 	url = https://github.com/vim-scripts/rubycomplete.vim.git
-[submodule "bundle/rail"]
-	path = bundle/rail
-	url = https://github.com/vim-scripts/rails.vim.git
+
