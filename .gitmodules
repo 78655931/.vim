@@ -22,7 +22,4 @@
 [submodule "bundle/bufexplorerer"]
 	path = bundle/bufexplorerer
 	url = git://github.com/corntrace/bufexplorer.git
-[submodule "bundle/rubycomplete"]
-	path = bundle/rubycomplete
-	url = https://github.com/vim-scripts/rubycomplete.vim.git
 
